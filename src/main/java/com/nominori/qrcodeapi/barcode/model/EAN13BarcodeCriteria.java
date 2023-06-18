@@ -13,10 +13,10 @@ public class EAN13BarcodeCriteria {
 
     @Min(100)
     @Max(1000)
-    private Integer width;
+    private Integer width = 300;
 
     @Min(50)
     @Max(500)
-    private Integer height;
+    private Integer height = 150;
 
 }
