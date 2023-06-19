@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>QR Code API</title>
+</head>
+<style>
+    body,
+    html {
+        background:#2196f3;
+        height:100%;
+        padding:0;
+        margin:0;
+        font-family:roboto,sans-serif
+    }
+    .wrap {
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        height:100%
+    }
+    .frame {
+        background:#fff;
+        box-shadow:rgba(0,0,0,.36) 0 10px 60px 0;
+        padding:30px;
+        max-width:500px
+    }
+    .frame h1 {
+        margin:0;
+        padding:0;
+        padding-bottom:10px;
+        border-bottom:3px solid;
+        font-weight:300
+    }
+    h1.success {
+        border-color:#81c784
+    }
+    h1.error {
+        border-color:#f44336
+    }
+    #token {
+        background:#eee;
+        padding:10px;
+        border:0;
+        width:100%;
+        box-sizing:border-box;
+        font-family:monospace
+    }
+    code {
+        background:#eee;
+        padding:2px 4px
+    }
+    hr {
+        border:none;
+        height:1px;
+        background:#e0e0e0;
+        margin:20px 0
+    }
+    a {
+        color:#039be5;
+        text-decoration:none
+    }
+    a:hover {
+        text-decoration:underline
+    }
+</style>
+<div class="wrap">
+    <div class="frame">
+        <h1 class="success">QR Code REST API</h1>
+        <h3>Welcome!</h3>
+        <p>Generate QR codes and Barcodes effortlessly for seamless integration into your applications.
+           Simplify data sharing and enhance user experiences with custom codes containing URLs, text, or contact</p>
+        <h4>Useful links:</h4>
+        <p><a href="/swagger-ui.html">API Documentation</a></p>
+        <p><a href="https://github.com/nominori-dev/qrcode-api">Project repository</a></p>
+    </div>
+</div>
+</html>
