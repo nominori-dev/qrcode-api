@@ -1,7 +1,7 @@
 package com.nominori.qrcodeapi;
 
-import com.nominori.qrcodeapi.barcode.service.ChecksumService;
-import com.nominori.qrcodeapi.barcode.service.impl.ChecksumServiceImpl;
+import com.nominori.qrcodeapi.application.barcode.ChecksumService;
+import com.nominori.qrcodeapi.application.barcode.impl.ChecksumServiceImpl;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import static org.assertj.core.api.Assertions.assertThat;
